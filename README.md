@@ -23,6 +23,7 @@ Input example:
   "description": "gayung ajaib",
   "quantity": 10
 }
+
 Response 200:
 {
     "code": 200,
@@ -62,6 +63,7 @@ Response 200:
         }
     ]
 }
+
 Response 500:
 {
     "code": 500,
@@ -71,6 +73,7 @@ Response 500:
 
 GET api/products
 'Accept: application/json' http://localhost:8080/api/products
+
 query:
 - sortBy
 - sortType
